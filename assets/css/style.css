@@ -415,8 +415,10 @@ footer a {
 @media screen and (min-width: 700px) {
   .utility {
     display: inline-block;
-    position: absolute;
-    right: 4%;
+    position: fixed;
+    right: 60px;
+    top: 30%;
+    z-index: 2;
   }
 }
 
@@ -429,8 +431,8 @@ footer a {
     border: solid #ffffff 2px;
     border-radius: 3px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.247);
-    position: fixed;
-    bottom: 140px;
+    position: absolute;
+    bottom: 70px;
   }
   #calendar {
     color: #3f6bca;
@@ -440,8 +442,8 @@ footer a {
     border: solid #ffffff 2px;
     border-radius: 3px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.247);
-    position: fixed;
-    bottom: 70px;
+    position: absolute;
+    bottom: 140px;
   }
   #arrow {
     color: red;
@@ -451,17 +453,18 @@ footer a {
     border: solid #ffffff 2px;
     border-radius: 3px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.247);
-    position: fixed;
-    bottom: 0px;
+    position: absolute;
+    bottom: -550px;
   }
 }
 
 @media screen and (max-width: 700px) {
   .utility {
     display: inline-block;
-    position: absolute;
-    right: 8%;
-    bottom: 10%;
+    position: fixed;
+    right: 0.3%;
+    bottom: 5%;
+    z-index: 1;
   }
 }
 
@@ -474,8 +477,8 @@ footer a {
     border: solid #ffffff 2px;
     border-radius: 3px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.247);
-    position: fixed;
-    bottom: 140px;
+    position: absolute;
+    bottom: 70px;
   }
   #calendar {
     color: #3f6bca;
@@ -485,8 +488,8 @@ footer a {
     border: solid #ffffff 2px;
     border-radius: 3px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.247);
-    position: fixed;
-    bottom: 70px;
+    position: absolute;
+    bottom: 140px;
   }
   #arrow {
     color: red;
@@ -496,7 +499,5 @@ footer a {
     border: solid #ffffff 2px;
     border-radius: 3px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.247);
-    position: fixed;
-    bottom: 0px;
   }
 }
